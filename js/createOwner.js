@@ -1,3 +1,4 @@
+// http://127.0.0.1:5500/createOwner.html 
 $("#owners-create-form").on("submit", async (event) => {
     event.preventDefault();
     const firstName = $("#firstName").val();
